@@ -1,0 +1,59 @@
+/**
+ * General styling for the application, enhancing Bootstrap defaults
+ * with custom color schemes, typography, and layout tweaks for a better user experience.
+ */
+
+ body {
+  background-color: #f4f4f9; /* A light grey background for a subtle look */
+  color: #333; /* Dark grey color for text, enhancing readability */
+  font-family: 'Arial', sans-serif; /* Consistent typography */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0056b3; /* A consistent blue shade for all heading elements */
+}
+
+.Navbar {
+  background-color: #282c34; /* Dark background for the navbar for contrast */
+  padding: 0.5rem 1rem; /* Sufficient padding for better appearance */
+}
+
+.Nav-link {
+  color: #f8f9fa; /* Light color for links to stand out on the dark navbar */
+  margin-right: 1rem; /* Right margin for spacing between links */
+}
+
+.Button {
+  background-color: #007bff; /* Bootstrap primary button color */
+  border-color: #007bff;
+}
+
+.Button:hover {
+  background-color: #0056b3; /* Darker blue on hover for visual feedback */
+  border-color: #004085;
+}
+
+.Container {
+  padding-top: 20px; /* Space above content inside container */
+}
+
+/* Customizes form input for better visibility */
+.Form-control {
+  border-radius: 0.25rem; /* Rounded corners for input fields */
+  border: 1px solid #ced4da; /* Consistent border styling */
+}
+
+/* Enhances the list group items with better spacing and border */
+.List-group-item {
+  border: 1px solid rgba(0, 0, 0, 0.125); /* Light border for separation */
+  margin-bottom: 0.5rem; /* Bottom margin for spacing between items */
+}
+
+/* Error handling and alert styles */
+.Alert {
+  margin-top: 20px; /* Top margin for alert to be visible clearly */
+  font-weight: bold; /* Makes the text bold for emphasis */
+  color: #721c24; /* Dark red color for danger alerts */
+  background-color: #f8d7da; /* Light red background for danger alerts */
+  border-color: #f5c6cb; /* Light red border for cohesive look */
+}
