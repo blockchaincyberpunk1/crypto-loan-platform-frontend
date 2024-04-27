@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/crypto-loan-platform-frontend/static/css/main.d5289b2f.css",
+    "main.js": "/crypto-loan-platform-frontend/static/js/main.8f647dfb.js",
+    "index.html": "/crypto-loan-platform-frontend/index.html",
+    "main.d5289b2f.css.map": "/crypto-loan-platform-frontend/static/css/main.d5289b2f.css.map",
+    "main.8f647dfb.js.map": "/crypto-loan-platform-frontend/static/js/main.8f647dfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5289b2f.css",
+    "static/js/main.8f647dfb.js"
+  ]
+}
